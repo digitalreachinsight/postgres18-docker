@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R 999:999 /var/lib/postgresql/data/
+# chown -R 999:999 /var/lib/postgresql/data/
