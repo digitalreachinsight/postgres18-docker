@@ -16,7 +16,7 @@ case "$1" in
     start|stop|restart|reload)
         if [ "$1" = "start" ]; then
             echo "Applying Permissions"
-            chown -R 999:999 /var/lib/postgresql/data/
+            # chown -R 999:999 /var/lib/postgresql/data/
         fi
         exit ${EXIT:-0}
         ;;
